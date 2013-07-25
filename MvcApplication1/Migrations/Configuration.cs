@@ -34,7 +34,7 @@ namespace MvcApplication1.Migrations
              Title = "When Harry Met Sally",
              ReleaseDate = DateTime.Parse("1989-1-11"),
              Genre = "Romantic Comedy",
-             Rating = "G",
+             Rating = "YG",
              Price = 7.99M
          },
 
@@ -43,7 +43,7 @@ namespace MvcApplication1.Migrations
               Title = "Ghostbusters ",
               ReleaseDate = DateTime.Parse("1984-3-13"),
               Genre = "Comedy",
-              Rating = "E",
+              Rating = "XE",
               Price = 8.99M
           },
 
@@ -52,7 +52,7 @@ namespace MvcApplication1.Migrations
               Title = "Ghostbusters 2",
               ReleaseDate = DateTime.Parse("1986-2-23"),
               Genre = "Comedy",
-              Rating = "G",
+              Rating = "ZG",
               Price = 9.99M
           },
 
