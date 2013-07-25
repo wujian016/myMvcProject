@@ -173,6 +173,19 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201307251400454_Initial.cs" />
+    <Compile Include="Migrations\201307251400454_Initial.Designer.cs">
+      <DependentUpon>201307251400454_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201307251440570_AddRatingMig.cs" />
+    <Compile Include="Migrations\201307251440570_AddRatingMig.Designer.cs">
+      <DependentUpon>201307251440570_AddRatingMig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201307251509429_AddDataAnnotationsMig.cs" />
+    <Compile Include="Migrations\201307251509429_AddDataAnnotationsMig.Designer.cs">
+      <DependentUpon>201307251509429_AddDataAnnotationsMig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -318,6 +331,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Movies\SearchIndex.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201307251400454_Initial.resx">
+      <DependentUpon>201307251400454_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201307251440570_AddRatingMig.resx">
+      <DependentUpon>201307251440570_AddRatingMig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201307251509429_AddDataAnnotationsMig.resx">
+      <DependentUpon>201307251509429_AddDataAnnotationsMig.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
