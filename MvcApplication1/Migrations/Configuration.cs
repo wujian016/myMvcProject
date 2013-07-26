@@ -61,8 +61,8 @@ namespace MvcApplication1.Migrations
             Title = "Rio Bravo",
             ReleaseDate = DateTime.Parse("1959-4-15"),
             Genre = "Western",
-            Rating = "F",
-            Price = 3.99M
+            Rating = "FY",
+            Price = 3.09M
         }
     );
         }
